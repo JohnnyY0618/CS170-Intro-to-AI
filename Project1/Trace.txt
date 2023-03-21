@@ -1,0 +1,55 @@
+welcome to 862039649 8 puzzle solver.
+Enter your pullze, use a zero to represent the blank(vaild # 0-8)
+
+The choice of algorithm
+Enter 1 for Uniform Cost Search
+Enter 2 for A* with the Misplaced Tile heurstic
+Enter 3 for A* with the Eucledian distance heurstic
+Options: Enter 4 for A* with the ma heurstic
+
+start searching.......
+[1 0 3]
+[4 2 6]
+[7 5 8]
+operations =  None
+depth(g(n)) =  0
+h(n) =  3.0
+f(n) =  3.0
+Expanded nodes =  0 . current queue size =  1
+Expanding the nodes..........
+Expand 3 nodes
+
+[1 2 3]
+[4 0 6]
+[7 5 8]
+operations =  down
+depth(g(n)) =  1
+h(n) =  2.0
+f(n) =  3.0
+Expanded nodes =  3 . current queue size =  2
+Expanding the nodes..........
+Expand 3 nodes
+
+[1 2 3]
+[4 5 6]
+[7 0 8]
+operations =  down
+depth(g(n)) =  2
+h(n) =  1.0
+f(n) =  3.0
+Expanded nodes =  6 . current queue size =  3
+Expanding the nodes..........
+Expand 2 nodes
+
+[1 2 3]
+[4 5 6]
+[7 8 0]
+operations =  right
+depth(g(n)) =  3
+h(n) =  0.0
+f(n) =  3.0
+Expanded nodes =  8 . current queue size =  4
+Goal state found!
+To solve this problem, the number of nodes expand is:  8
+The maximum number of nodes in the queue at any one time is:  4
+The depth of the goal state is:  3
